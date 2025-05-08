@@ -44,7 +44,7 @@ namespace PW5
             }
         }
 
-        public new void PrintInfo()
+        public override void PrintInfo()
         {
             base.PrintInfo();
             Console.WriteLine("Owner: {0}", Owner);

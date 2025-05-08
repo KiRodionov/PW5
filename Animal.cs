@@ -42,7 +42,7 @@ namespace PW5
         {
             Console.WriteLine("Some Sound");
         }
-        public void PrintInfo()
+        public virtual void PrintInfo()
         {
             Console.WriteLine("Species: {0}", Species);
             Console.WriteLine("Name: {0}", Name);

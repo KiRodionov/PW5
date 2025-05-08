@@ -36,7 +36,7 @@ namespace PW5
             Status = AnimalStatus.Sleep;
         }
 
-        public new void PrintInfo()
+        public override void PrintInfo()
         {
             base.PrintInfo();
             Console.WriteLine("Habitat: {0}", Habitat);

@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="PW5.Animal" Collapsed="true">
+  <Class Name="PW5.Animal">
     <Position X="7.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEAAAEAAAAAAAAAEAAAAQAEAAAACAAAAAAAAAAEAA=</HashCode>
       <FileName>Animal.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PW5.Pet" Collapsed="true">
-    <Position X="5.75" Y="3" Width="1.5" />
+  <Class Name="PW5.Pet">
+    <Position X="5.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAgCAAAAAAAAAAEAAAgAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAgCAAAAAAAAAEEAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>Pet.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PW5.WildAnimal" Collapsed="true">
-    <Position X="9.75" Y="3" Width="1.5" />
+  <Class Name="PW5.WildAnimal">
+    <Position X="10.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAAAAAAAAAAEEAAAAAAAIAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>WildAnimal.cs</FileName>
