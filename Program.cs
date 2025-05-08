@@ -11,7 +11,7 @@ animal.PrintInfo();
 
 Console.WriteLine("--------------------");
 
-Pet pet = new Pet("Dog", "Bobby", 0);
+Pet pet = new Pet("Dog", "Bobby", 0, "John");
 pet.PrintInfo();
 Console.WriteLine();
 

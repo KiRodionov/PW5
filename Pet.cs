@@ -9,23 +9,21 @@ namespace PW5
     internal class Pet : Animal
     {
         // Свойства
-        public string Owner { get; set; }
-        public int HappinesLevel { get; private set; }
+        public string Owner { get; set; } = "Kirill";
+        public int HappinessLevel { get; private set; }
         
-        public Pet(string species, string name, int age, string owner = "Kirill")
+        public Pet(string species, string name, int age, string owner )
+            :base(species, name, age)
         {
-            Species = species;
-            Name = name;
-            Age = age;
             Owner = owner;
-            HappinesLevel = 0;
+            HappinessLevel = 0;
         }
         //Методы
         public void Feed()
         {
             if (Status == AnimalStatus.Active) { 
-                HappinesLevel++;
-                Console.WriteLine("{0} was feed, happiness level:{1}", Name, HappinesLevel);
+                HappinessLevel++;
+                Console.WriteLine("{0} was feed, happiness level:{1}", Name, HappinessLevel);
             }
             else
             {
@@ -37,8 +35,8 @@ namespace PW5
         {
             if (Status == AnimalStatus.Active)
             {
-                HappinesLevel += 2;
-                Console.WriteLine("{0} played, happiness level:{1}", Name, HappinesLevel);
+                HappinessLevel += 2;
+                Console.WriteLine("{0} played, happiness level:{1}", Name, HappinessLevel);
             }
             else
             {
@@ -50,7 +48,7 @@ namespace PW5
         {
             base.PrintInfo();
             Console.WriteLine("Owner: {0}", Owner);
-            Console.WriteLine("Happiness level: {0}", HappinesLevel);
+            Console.WriteLine("Happiness level: {0}", HappinessLevel);
         }
     }
 }

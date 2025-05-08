@@ -19,6 +19,15 @@ namespace PW5
         public int Age { get; set; } = 0;
         public AnimalStatus Status { get; protected set; } = AnimalStatus.Active;
 
+        //Конструкторы
+        public Animal() { }
+        public Animal(string species, string name, int age)
+        {
+            Species = species;
+            Name = name;
+            Age = age;
+            Status = AnimalStatus.Active;
+        }
         //Методы
         public void WakeUp()
         {

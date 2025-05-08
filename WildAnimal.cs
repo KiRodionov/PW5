@@ -13,10 +13,8 @@ namespace PW5
         public int DangerLevel { get; set; }
 
         public WildAnimal(string species, string name, int age, string habitat, int dangerLevel)
+            :base(species, name, age)
         {
-            Species = species;
-            Name = name;
-            Age = age;
             Habitat = habitat;
             DangerLevel = dangerLevel;
         }
